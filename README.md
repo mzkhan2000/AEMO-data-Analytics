@@ -32,6 +32,9 @@ for i in range(len(list_of_names)):
 # multiple DataFrames are be merged (Concatenate pandas objects) - Monir
 PUBLIC_DISPATCHSCADA_df = pd.concat(dataframes_list)
 
+# set a specific column of DataFrame as index - Monir
+PUBLIC_DISPATCHSCADA_df.set_index('DUID')
+
 # Export Pandas DataFrame to CSV - Monir
 PUBLIC_DISPATCHSCADA_df.to_csv('PUBLIC_DISPATCHSCADA_df.csv', index=False)
 ```
