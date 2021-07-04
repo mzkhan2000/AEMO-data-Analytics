@@ -42,3 +42,5 @@ PUBLIC_DISPATCHSCADA_df.to_csv('PUBLIC_DISPATCHSCADA_df.csv', index=False)
 ```
 
 # PUBLIC_DISPATCHSCADA_df contains 3326960 rows × 6 columns
+
+# Similarly For PUBLIC_TRADINGIS data 1,674 files are extracted in a single folder 
