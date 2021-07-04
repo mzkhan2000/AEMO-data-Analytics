@@ -87,5 +87,6 @@ for i in range(len(list_of_names)):
     #dataframes_list[i]=temp_df
     #dataframes_list.append(temp_df)
     
-
 ```
+
+![TradingIS](Images/Trading-dataframe.png?raw=true "TradingIS")
