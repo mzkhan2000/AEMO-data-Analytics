@@ -43,6 +43,8 @@ PUBLIC_DISPATCHSCADA_df.to_csv('PUBLIC_DISPATCHSCADA_df.csv', index=False)
 ```
 **PUBLIC_DISPATCHSCADA_df contains 3,326,960 rows × 6 columns**
 
+![DISPATCHSCADA](Images/DISPATCHSCADA-dataframe.png?raw=true "DISPATCHSCADA")
+
 ### 2. Fetch 1,674 datasets from PUBLIC_TRADINGIS data.
 
 **Similarly For PUBLIC_TRADINGIS data 1,674 files are extracted in a single folder** 
