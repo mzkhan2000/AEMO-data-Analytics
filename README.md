@@ -1,8 +1,8 @@
 # AEMO-data-Analytics
 AEMO-data-Analytics
 
-## Fetch and Clean the data
-# 1. Fetch all 8,891 datasets from PUBLIC_DISPATCHSCADA data.
+# Fetch and Clean the data
+### 1. Fetch all 8,891 datasets from PUBLIC_DISPATCHSCADA data.
 
 **For PUBLIC_DISPATCHSCADA data 8,891 files are extracted in a single folder** 
 
@@ -43,7 +43,7 @@ PUBLIC_DISPATCHSCADA_df.to_csv('PUBLIC_DISPATCHSCADA_df.csv', index=False)
 ```
 **PUBLIC_DISPATCHSCADA_df contains 3,326,960 rows × 6 columns**
 
-# 2. Fetch 1,674 datasets from PUBLIC_TRADINGIS data.
+### 2. Fetch 1,674 datasets from PUBLIC_TRADINGIS data.
 
 **Similarly For PUBLIC_TRADINGIS data 1,674 files are extracted in a single folder** 
 
