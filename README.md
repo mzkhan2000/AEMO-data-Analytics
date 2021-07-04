@@ -45,3 +45,44 @@ PUBLIC_DISPATCHSCADA_df.to_csv('PUBLIC_DISPATCHSCADA_df.csv', index=False)
 # 2. Fetch the data from PUBLIC_TRADINGIS data.
 
 **Similarly For PUBLIC_TRADINGIS data 1,674 files are extracted in a single folder** 
+
+```python
+# import necessary libraries - Monir
+import pandas as pd
+import os
+import glob
+import numpy as np
+from csv import reader
+
+# assign dataset names - Monir
+PUBLIC_TRADINGIS_list_of_files = []
+
+#read all dataset names with starting PUBLIC_DISPATCHSCADA - Monir
+PUBLIC_TRADINGIS_list_of_files = glob.glob('PUBLIC_TRADINGIS*.csv')
+
+# create empty list
+dataframes_list = []
+
+list_of_names = PUBLIC_TRADINGIS_list_of_files
+
+# append datasets into teh list
+for i in range(len(list_of_names)):
+    # read csv file as a list of lists
+    with open(list_of_names[i], 'r') as read_obj:
+        # pass the file object to reader() to get the reader object
+        csv_reader = reader(read_obj)
+        # Pass reader object to list() to get a list of lists
+        list_of_rows = list(csv_reader)
+        #print(list_of_rows)
+        #temp_df = pd.DataFrame(list_of_rows)
+        temp_df = pd.DataFrame(list_of_rows[9:14])
+    dataframes_list.append(temp_df)
+    list_of_column = list_of_rows[8]
+    
+    
+    #temp_df = pd.read_csv(list_of_names[i], skiprows = 1, skipfooter = 1)
+    #dataframes_list[i]=temp_df
+    #dataframes_list.append(temp_df)
+    
+
+```
