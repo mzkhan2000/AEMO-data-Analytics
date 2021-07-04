@@ -1,6 +1,7 @@
 # AEMO-data-Analytics
 AEMO-data-Analytics
 
+## Fetch and Clean the data
 # 1. Fetch all 8,891 datasets from PUBLIC_DISPATCHSCADA data.
 
 **For PUBLIC_DISPATCHSCADA data 8,891 files are extracted in a single folder** 
