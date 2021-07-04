@@ -1,9 +1,11 @@
 # AEMO-data-Analytics
 AEMO-data-Analytics
 
-1. Fetch the data from data sources.
+# 1. Fetch the data from data sources.
 
-Python-Pandas necessary-code-for-me
+# For PUBLIC_DISPATCHSCADA data 8,891 files are extracted in a single folder 
+
+Python-Pandas necessary code for fetching the data from PUBLIC_DISPATCHSCADA data
 
 ```python
 # import necessary libraries - Monir
