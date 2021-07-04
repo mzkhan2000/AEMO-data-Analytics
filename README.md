@@ -3,7 +3,7 @@ AEMO-data-Analytics
 
 # 1. Fetch the data from data sources.
 
-# For PUBLIC_DISPATCHSCADA data 8,891 files are extracted in a single folder 
+**For PUBLIC_DISPATCHSCADA data 8,891 files are extracted in a single folder** 
 
 Python-Pandas necessary code for fetching the data from PUBLIC_DISPATCHSCADA data
 
@@ -40,7 +40,6 @@ PUBLIC_DISPATCHSCADA_df.set_index('DUID')
 # Export Pandas DataFrame to CSV - Monir
 PUBLIC_DISPATCHSCADA_df.to_csv('PUBLIC_DISPATCHSCADA_df.csv', index=False)
 ```
-
-# PUBLIC_DISPATCHSCADA_df contains 3326960 rows × 6 columns
-
-# Similarly For PUBLIC_TRADINGIS data 1,674 files are extracted in a single folder 
+**PUBLIC_DISPATCHSCADA_df contains 3326960 rows × 6 columns**
+ 
+**Similarly For PUBLIC_TRADINGIS data 1,674 files are extracted in a single folder** 
