@@ -40,7 +40,7 @@ PUBLIC_DISPATCHSCADA_df.set_index('DUID')
 # Export Pandas DataFrame to CSV - Monir
 PUBLIC_DISPATCHSCADA_df.to_csv('PUBLIC_DISPATCHSCADA_df.csv', index=False)
 ```
-**PUBLIC_DISPATCHSCADA_df contains 3326960 rows × 6 columns**
+**PUBLIC_DISPATCHSCADA_df contains 3,326,960 rows × 6 columns**
 
 # 2. Fetch the data from PUBLIC_TRADINGIS data.
 
